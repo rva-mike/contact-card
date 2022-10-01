@@ -2,7 +2,7 @@ import "./form";
 import "./submit";
 import { Tooltip, Toast, Popover } from 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { initdb } from './database';
+import { initDb, getDb, postDb } from './database';
 
 
 import Logo from '../images/logo.png';
